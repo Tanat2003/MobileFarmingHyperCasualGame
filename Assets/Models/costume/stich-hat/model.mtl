@@ -1,0 +1,14 @@
+# Made in Blockbench 2.6.0
+newmtl 1
+map_Kd light_blue_concrete.png
+newmtl 2
+map_Kd blue_concrete.png
+newmtl 3
+map_Kd black_concrete.png
+newmtl 4
+map_Kd snow.png
+newmtl 5
+map_Kd cyan_concrete.png
+newmtl 6
+map_Kd pink_concrete.png
+newmtl none
