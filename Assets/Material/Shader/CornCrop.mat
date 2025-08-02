@@ -66,10 +66,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - <noninit>: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-<<<<<<< Updated upstream
-    - _PlayerPosition: {r: -1.2101431, g: 0.23000002, b: 0.099156514, a: 0}
-=======
-    - _PlayerPosition: {r: -0.1488954, g: 0.23, b: 0.5582177, a: 0}
->>>>>>> Stashed changes
+    - _PlayerPosition: {r: 0.29837608, g: 0.23000002, b: 3.1631439, a: 0}
   m_BuildTextureStacks: []

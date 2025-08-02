@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,7 +13,13 @@ public class Player_AnimationEvent : MonoBehaviour
 
 
     #region Particle Method
-    private void PlaySeedParticle() => seedParticle.Play();
+    private void PlaySeedParticle()
+    {
+        seedParticle.Play();
+        AudioManager.instance.PlaySFX(4);
+
+    }
+
 
 
     private void PlayWaterParticle()

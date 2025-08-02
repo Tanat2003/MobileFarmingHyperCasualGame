@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Inventory
 {
     //เรามีItemเก็บข้อมูลของไอเทม และ Inventoryเป็นคลาสที่คอยเพิ่มItemลงไปในลิสต์

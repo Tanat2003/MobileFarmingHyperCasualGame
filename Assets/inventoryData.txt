@@ -1,12 +1,8 @@
 {
-<<<<<<< Updated upstream
-    "items": []
-=======
     "items": [
         {
-            "cropType": 1,
+            "cropType": 0,
             "amount": 9
         }
     ]
->>>>>>> Stashed changes
 }
