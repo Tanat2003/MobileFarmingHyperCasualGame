@@ -39,7 +39,7 @@ public class WorldManager : MonoBehaviour
 
         Chunk.onPriceChanged += ChunkPriceChangedCallback;
 
-        dataPath = Application.dataPath + "/WorldData.txt";
+        //dataPath = Application.dataPath + "/WorldData.txt";
 
     }
 

@@ -23,7 +23,7 @@ public class Inventory_Manager : MonoBehaviour
         dataPath = Application.persistentDataPath + "/inventoryData.txt"; //µÕπPolsih‡ª≈’Ë¬π‡ªÁπpersistentDataPath
 
 
-        dataPath = Application.dataPath + "/inventoryData.txt"; //µÕπPolsih‡ª≈’Ë¬π‡ªÁπpersistentDataPath
+        //dataPath = Application.dataPath + "/inventoryData.txt"; //µÕπPolsih‡ª≈’Ë¬π‡ªÁπpersistentDataPath
         //µÕπ‡∑ ‡ªÁπdataPath
 
         LoadInventory();

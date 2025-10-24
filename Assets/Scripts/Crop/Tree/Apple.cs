@@ -15,7 +15,7 @@ public class Apple : MonoBehaviour
     private Vector3 initialPos;
     private Quaternion initialRot;
 
-
+    private float cooldown;
 
 
     private void Awake()
@@ -27,6 +27,7 @@ public class Apple : MonoBehaviour
     private void Start()
     {
         state = State.Growing;
+        ForecReset();
     }
     public void Shake(float shakeMagnitude)
     {
@@ -58,7 +59,8 @@ public class Apple : MonoBehaviour
         rb.isKinematic = true;
         
         //ScaleUp
-        float randomScaleTime = UnityEngine.Random.Range(30f, 60f);
+        float randomScaleTime = UnityEngine.Random.Range(0f, 10.5f);
+        cooldown = randomScaleTime;
         LeanTween.scale(gameObject, Vector3.one, randomScaleTime).setOnComplete(SetReady);
     }
 
@@ -66,5 +68,8 @@ public class Apple : MonoBehaviour
     {
         state = State.Ready;
     }
+    
     public bool IsReady() => state == State.Ready;
+
+    public float HowlongForCooldown => cooldown;
 }

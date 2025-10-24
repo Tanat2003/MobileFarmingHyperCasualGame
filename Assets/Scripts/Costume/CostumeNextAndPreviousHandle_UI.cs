@@ -127,7 +127,7 @@ public class CostumeNextAndPreviousHandle_UI : MonoBehaviour
     {
         items[index].gameObject.SetActive(false);
         items[index].UpdatePlayerSelectedItem(false); //Update for previous Item
-
+        items[index].HideBuyButton();
         //Handle The index
         if (isNext)
         {
@@ -144,7 +144,7 @@ public class CostumeNextAndPreviousHandle_UI : MonoBehaviour
 
         //Show Current Item
         items[index].gameObject.SetActive(true);
-
+        
         //If not buy
         if (!items[index].IsThisItemBuy())
             items[index].ShowBuyButton();

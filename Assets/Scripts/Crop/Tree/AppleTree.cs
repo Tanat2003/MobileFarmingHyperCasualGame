@@ -132,4 +132,17 @@ public class AppleTree : MonoBehaviour
        return true;
  
     }
+    public float HowlongAllAppleCooldown()
+    {
+        float totalCooldown = 0;
+        for (int i = 0; i < appleParent.childCount; i++)
+        {
+            if (!appleParent.GetChild(i).GetComponent<Apple>().IsReady())
+            {
+                totalCooldown += appleParent.GetChild(i).GetComponent<Apple>().HowlongForCooldown;
+            }
+
+        }
+        return totalCooldown;
+    }
 }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1254cea08b31bc43a511c260cf30b5b, type: 3}
   m_Name: LuffysStrawHat_lowData
   m_EditorClassIdentifier: 
-  unlocked: 1
-  price: 200
+  unlocked: 0
+  price: 250
   isUsing: 0

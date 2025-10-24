@@ -68,5 +68,5 @@ Material:
     m_Colors:
     - <noninit>: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _PlayerPosition: {r: 0.29837608, g: 0.23000002, b: 3.1631439, a: 0}
+    - _PlayerPosition: {r: -6.0622797, g: 0.23000014, b: 4.2476788, a: 0}
   m_BuildTextureStacks: []
